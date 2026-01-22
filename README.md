@@ -1,37 +1,52 @@
-# Vite React Best Practices
+# Vite React Best Practices Skill
 
-A senior-level guide for building production-ready React Single Page Applications (SPAs) with Vite.
+This repository contains the `vite-react-best-practices` skill, a comprehensive guide for building production-ready React Single Page Applications (SPAs) with Vite. This skill is designed to be used by AI coding assistants to provide guidance on performance, architecture, and deployment best practices.
 
-## When to Apply
+## What's Inside?
 
-Reference these guidelines when:
-- Setting up a new Vite + React project
-- Configuring build pipelines and CI/CD for SPAs
-- Troubleshooting production build or caching issues
-- Refactoring React components for performance
-
-## Rule Categories
+This skill provides a collection of rules and guidelines organized into the following categories:
 
 ### 1. Vite SPA Deployment (CRITICAL)
-
-- [Static Rewrites](rules/vite-spa-rewrites.md) - **Mandatory** for client-side routing.
-- [Caching Strategy](rules/vite-caching-strategy.md) - Immutable assets, no-cache index.html.
-- [Build Validation](rules/vite-build-validation.md) - Preview before push.
-- [Environment Variables](rules/vite-env-vars.md) - `VITE_` prefix and security.
+- **Static Rewrites**: Mandatory for client-side routing.
+- **Caching Strategy**: Immutable assets, no-cache index.html.
+- **Build Validation**: Preview before push.
+- **Environment Variables**: `VITE_` prefix and security.
 
 ### 2. React Core Performance
-
-- [Route Splitting](rules/react-route-splitting.md) - Lazy load pages.
-- [Server State](rules/react-server-state.md) - Use React Query/SWR.
-- [Memoization](rules/react-memoization.md) - When to use useMemo/useCallback.
-- [Image Optimization](rules/react-image-optimization.md) - CLS prevention.
+- **Route Splitting**: Lazy load pages.
+- **Server State**: Use React Query/SWR.
+- **Memoization**: When to use useMemo/useCallback.
+- **Image Optimization**: CLS prevention.
 
 ### 3. Architecture & Cleanup
+- **Colocation**: Feature-based structure.
+- **Anti-Patterns: Import from Dist**: Avoid bundling twice.
+- **Troubleshooting**: Common Vite fixes.
 
-- [Colocation](rules/react-colocation.md) - Feature-based structure.
-- [Anti-Patterns: Import from Dist](rules/anti-import-dist.md) - Avoid bundling twice.
-- [Troubleshooting](rules/vite-troubleshooting.md) - Common Vite fixes.
+For a complete, compiled version of all rules, see the `AGENTS.md` file.
 
-## Full Compiled Document
+## Installation
 
-For the complete guide with all rules expanded: `AGENTS.md`
+You can install this skill for your AI coding assistant using the `npx skills add` command:
+
+```bash
+npx skills add claudiocebpaz/vite-react-best-practices
+```
+
+This command will install the skill for all supported AI agents found on your system, such as Gemini CLI, Claude Code, OpenCode, and others.
+
+## Usage
+
+Once installed, your AI coding assistant will automatically use this skill when you ask for help with tasks related to Vite and React. For example, you can ask it to:
+
+-   "Review my Vite project for performance issues."
+-   "Help me set up route splitting in my React application."
+-   "What are the best practices for caching in a Vite SPA?"
+
+## Contributing
+
+This skill is open source and contributions are welcome. If you have suggestions for improvements or new rules, please open an issue or a pull request in the [GitHub repository](https://github.com/claudiocebpaz/vite-react-best-practices).
+
+## More Information
+
+You can find more information about this skill and discover others on [skills.sh](https://skills.sh/claudiocebpaz/vite-react-best-practices) and [SkillsMP](https://skillsmp.com/).
